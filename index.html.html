@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Vamshi Developer portFolio
+    </title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(8, 6, 6);
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(37, 31, 31);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: rgb(116, 116, 241);
+        font-size: 1.2rem;
+    }
+
+    .left {
+        font-size: 25px;
+    }
+
+
+
+    .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 110px 0px;
+    }
+
+    .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 500px;
+    }
+
+    .firstSection>div {
+        width: 30%;
+    }
+
+    .leftSection {
+        font-size: 2.5rem;
+    }
+    .leftSection .buttons{
+        padding:50px 0;
+    }
+    .leftSection .btn {
+        padding: 10px;
+        background: #71758d;
+        color: white;
+        border: 2px solid white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .name {
+        color: rgb(224, 146, 51);
+    }
+
+    .text {
+        color: rgb(90, 78, 78);
+    }
+
+    #element {
+        color: rgb(224, 146, 51);
+    }
+
+    main hr {
+        border: 0;
+        background: rgb(247, 240, 240);
+        height: 2px;
+        margin: 48px 80px;
+    }
+
+    .secondSection h1 {
+        font-size: 30px;
+    }
+
+    .secondSection .box {
+        background-color: white;
+        width: 600px;
+        height: 2px;
+        margin: 53px 0;
+        display: flex;
+    }
+
+    .secondSection .vertical {
+        height: 80px;
+        width: 1px;
+        background-color: white;
+        margin: 0 140px;
+    }
+
+    .image-top {
+        width: 30px;
+        position: relative;
+        top: -33px;
+        left: -15px;
+    }
+
+    .vertial-Title {
+        position: relative;
+        top: 49px;
+        width: 150px;
+    }
+
+    .vertical-Description {
+        position: relative;
+        top: 55px;
+        width: 150px;
+        color: rgb(168, 168, 184);
+        font-size: 12px;
+    }
+
+    footer {
+        background-color: rgb(20 20 26);
+    }
+
+    .footer {
+        display: flex;
+        padding: 30px 90px;
+        justify-content: space-evenly;
+    }
+
+    .footer ul {
+        list-style: none;
+    }
+
+    .footer>div {
+        width: 150px;
+    }
+
+    footer .footer-rights {
+        text-align: center;
+        color: brown;
+        padding: 15px 0px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vamshi Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="name">Vamshikrishna</span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="dev.png" alt="devimage">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text">What I have studied so far</span>
+            <h1>Education Qualification</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="student-png.png">
+                    <div class="vertial-Title">Diploma</div>
+                    <div class="vertical-Description">
+                        Studied Electrical and Electronics Engineering in Jyothishmathi Institute of Technological
+                        Sciences from (2013-2016)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="student.png">
+                    <div class="vertial-Title">B.Tech</div>
+                    <div class="vertical-Description">
+                        Studied Electrical and Electronics Engineering in Sangai International University from
+                        (2016-2019)
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">Vamshi's Portfolio</div>
+            <div class="footer-second">
+                <ul>
+                    <li>About</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>email</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyrights &#169; vamshiportfolio.com | All Right's Reverved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Ehical Hacker.','Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
